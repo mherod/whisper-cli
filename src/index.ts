@@ -36,7 +36,12 @@ async function main() {
     "whisper-1"
     //
   );
-  consola.log(translation.data.text);
+  const text = translation.data.text //
+    .replace(/\s+/g, " ") //
+    .replace(/\W$/g, "") //
+    .toLocaleLowerCase() //
+    .trim();
+  console.log(text);
 }
 
 main().catch((error) => {

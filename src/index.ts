@@ -36,6 +36,7 @@ async function main() {
     "whisper-1"
     //
   );
+  // TODO make this an option
   const text = translation.data.text //
     .replace(/\s+/g, " ") //
     .replace(/\W$/g, "") //

@@ -7,7 +7,6 @@ import { name, version } from "../package.json";
 import fs, { existsSync } from "fs";
 import { openAIApiPromise } from "./whisper";
 
-
 async function main() {
   function fileOption(): Option {
     const option = new Option("-f, --file [input]", "specify input file");

@@ -1,5 +1,5 @@
 {
-  "name": "node-cli-template",
+  "name": "@mherod/whisper-cli",
   "version": "1.0.0",
   "description": "",
   "source": "src/index.ts",
@@ -39,6 +39,8 @@
   },
   "dependencies": {
     "commander": "^10.0.0",
-    "consola": "^2.15.3"
+    "consola": "^2.15.3",
+    "destr": "^1.2.2",
+    "openai": "^3.2.1"
   }
 }
